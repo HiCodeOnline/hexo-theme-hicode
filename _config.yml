@@ -6,7 +6,7 @@ site:
   # Whether to display the seal (stamp) in the header
   seal: true
   # Text displayed inside the seal stamp and favicon (single character recommended)
-  seal_text: "白"
+  seal_text: "Hi"
   rss:
     enabled: false
     path: /atom.xml
@@ -114,6 +114,12 @@ comments:
 # create a property, then find the ID (format: G-XXXXXXXXXX) under
 # Admin > Data Streams > Web > Measurement ID.
 analytics:
+  google:
+    enabled: false
+    # e.g., "G-XXXXXXXXXX"
+    id: ""
+
+ad:
   google:
     enabled: false
     # e.g., "G-XXXXXXXXXX"

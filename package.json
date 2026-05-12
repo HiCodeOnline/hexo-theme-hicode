@@ -1,11 +1,11 @@
 {
-  "name": "hexo-theme-shiro",
+  "name": "hexo-theme-hicode",
   "version": "1.4.2",
   "description": "A pure and simple theme for Hexo.",
-  "repository": "https://github.com/Acris/hexo-theme-shiro.git",
-  "homepage": "https://github.com/Acris/hexo-theme-shiro",
+  "repository": "https://github.com/HiCodeOnline/hexo-theme-hicode.git",
+  "homepage": "https://github.com/HiCodeOnline/hexo-theme-hicode",
   "bugs": {
-    "url": "https://github.com/Acris/hexo-theme-shiro/issues"
+    "url": "https://github.com/HiCodeOnline/hexo-theme-hicode/issues"
   },
   "scripts": {
     "dev": "tailwindcss -i ./source/css/_tailwind.css -o ./source/css/style.min.css --watch",
@@ -15,6 +15,7 @@
     "hexo",
     "theme",
     "shiro",
+    "hicode",
     "tailwind",
     "clean",
     "simple"
