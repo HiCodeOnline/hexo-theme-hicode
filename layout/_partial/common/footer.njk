@@ -4,12 +4,15 @@
         <p class="font-eng text-footnote tracking-wide opacity-90">Elegant theme by <a href="https://github.com/Acris/hexo-theme-shiro" target="_blank" rel="noopener noreferrer" class="link-muted">Shiro</a> · Made by <a href="https://acris.me" target="_blank" rel="noopener noreferrer" class="link-muted">Acris</a>
                         with <span aria-label="love" title="love">❤️</span></p>
     </div>
-    <div class="text-center text-sm text-slate-500 leading-relaxed">
+    {% if theme.icp.enabled %}
+   <div class="text-center text-sm text-slate-500 leading-relaxed">
         <a href="https://beian.miit.gov.cn/#/Integrated/index" target="_blank" rel="noreferrer" class="font-eng tracking-wide opacity-90">
-            <span>黔ICP备2026003513号-1</span>
+            <span>{{ theme.icp.no }}</span>
         </a>
         &nbsp;
         &nbsp;
-        <a href="https://beian.mps.gov.cn/#/query/webSearch?code=52010202004479" rel="noreferrer" target="_blank" class="font-eng tracking-wide opacity-90">贵公网安备52010202004479号</a>
+        <a href="https://beian.mps.gov.cn/#/query/webSearch?code={{theme.icp.miit.number}}" rel="noreferrer" target="_blank" class="font-eng tracking-wide opacity-90">{{ theme.icp.miit.no }}</a>
     </div>
+    {% endif %}
+    
 </footer>

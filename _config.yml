@@ -135,3 +135,11 @@ search:
   # Force language for tokenization (auto-detected from <html lang> by default).
   # Override only if Pagefind fails to detect your site language correctly.
   # force_language: zh
+
+
+icp:
+  enabled: true
+  no: "ICP备2023000000号"
+  miit: 
+    no: ""
+    number: ""
