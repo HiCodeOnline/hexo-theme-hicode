@@ -138,7 +138,7 @@ search:
 
 
 icp:
-  enabled: true
+  enabled: false
   no: "ICP备2023000000号"
   miit: 
     no: ""
